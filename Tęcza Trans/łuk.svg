@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
+  width="780mm"
+  height="90mm"
+  viewBox="-390 0 780 90">
+
+  <use xlink:href="../_/vario-gate.svg#łuk-trans" id="export"/>
+  <use xlink:href="../_/vario-gate.svg#łuk-guide" id="guide"/>
+</svg>

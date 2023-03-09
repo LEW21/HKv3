@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+  <defs>
+    <g id="bok-tęcza">
+      <ellipse rx="500" ry="500" fill="#e22016"/>
+
+      <ellipse rx="314.0" ry="294.0" fill="#e22016"/>
+      <ellipse rx="301.2" ry="281.2" fill="#f28917"/>
+      <ellipse rx="288.4" ry="268.4" fill="#efe524"/>
+      <ellipse rx="275.6" ry="255.6" fill="#78b82a"/>
+      <ellipse rx="262.8" ry="242.8" fill="#406fc7"/>
+      <ellipse rx="250.0" ry="230.0" fill="#8506a3"/>
+      <ellipse rx="237.2" ry="217.2" fill="none"/>
+
+      <ellipse rx="220" ry="200" fill="black"/>
+    </g>
+    <g id="bok-trans">
+      <ellipse rx="500" ry="500" fill="#5BCEFA"/>
+
+      <ellipse rx="314.00" ry="294.00" fill="#5BCEFA"/>
+      <ellipse rx="298.64" ry="278.64" fill="#F5A9B8"/>
+      <ellipse rx="283.28" ry="263.28" fill="white"/>
+      <ellipse rx="267.92" ry="247.92" fill="#F5A9B8"/>
+      <ellipse rx="252.56" ry="232.56" fill="#5BCEFA"/>
+      <ellipse rx="237.20" ry="217.20" fill="none"/>
+
+      <ellipse rx="220" ry="200" fill="black"/>
+    </g>
+    <g id="łuk-tęcza" transform="translate(0, 7.5) scale(780, 12.5) translate(-0.5, 0)" style="shape-rendering: crispEdges;">
+      <path d="M-1 -1 H2 V7 H-1 z" fill="#8506a3"/>
+      <path d="M-1 -1 H2 V6 H-1 z" fill="#8506a3"/>
+      <path d="M-1 -1 H2 V5 H-1 z" fill="#406fc7"/>
+      <path d="M-1 -1 H2 V4 H-1 z" fill="#78b82a"/>
+      <path d="M-1 -1 H2 V3 H-1 z" fill="#efe524"/>
+      <path d="M-1 -1 H2 V2 H-1 z" fill="#f28917"/>
+      <path d="M-1 -1 H2 V1 H-1 z" fill="#e22016"/>
+      <path d="M-1 -1 H2 V0 H-1 z" fill="none"/>
+    </g>
+    <g id="łuk-trans" transform="translate(0, 7.5) scale(780, 15) translate(-0.5, 0)" style="shape-rendering: crispEdges;">
+      <path d="M-1 -1 H2 V6 H-1 z" fill="#5BCEFA"/>
+      <path d="M-1 -1 H2 V5 H-1 z" fill="#5BCEFA"/>
+      <path d="M-1 -1 H2 V4 H-1 z" fill="#F5A9B8"/>
+      <path d="M-1 -1 H2 V3 H-1 z" fill="white"/>
+      <path d="M-1 -1 H2 V2 H-1 z" fill="#F5A9B8"/>
+      <path d="M-1 -1 H2 V1 H-1 z" fill="#5BCEFA"/>
+      <path d="M-1 -1 H2 V0 H-1 z" fill="none"/>
+    </g>
+    <g id="przód-tęcza">
+      <use xlink:href="../_/vario-gate.svg#bok-tęcza"/>
+      <use xlink:href="../_/logo.svg#logotyp" transform="translate(-36, -85) scale(0.18) rotate(183)"/>
+      <use xlink:href="../_/logo.svg#logotyp" transform="translate(58, -85) scale(0.18) rotate(-183)"/>
+    </g>
+    <g id="przód-trans">
+      <use xlink:href="../_/vario-gate.svg#bok-trans"/>
+      <use xlink:href="../_/logo.svg#logotyp" transform="translate(-36, -85) scale(0.18) rotate(183)"/>
+      <use xlink:href="../_/logo.svg#logotyp" transform="translate(58, -85) scale(0.18) rotate(-183)"/>
+    </g>
+    <g id="tył-tęcza">
+      <use xlink:href="../_/vario-gate.svg#bok-tęcza"/>
+      <use xlink:href="../_/logo.svg#logotyp" transform="translate(-52, -85) scale(0.18) rotate(183)"/>
+      <use xlink:href="../_/logo.svg#logotyp" transform="translate(52, -85) scale(0.18) rotate(-183)"/>
+    </g>
+    <g id="tył-trans">
+      <use xlink:href="../_/vario-gate.svg#bok-trans"/>
+      <use xlink:href="../_/logo.svg#logotyp" transform="translate(-52, -85) scale(0.18) rotate(183)"/>
+      <use xlink:href="../_/logo.svg#logotyp" transform="translate(52, -85) scale(0.18) rotate(-183)"/>
+    </g>
+
+    <g id="łuk-guide">
+      <g transform="translate(-390, 90.000109785) scale(1, -1) scale(0.0264583773) scale(1.3333333)">
+        <g style="fill:green;fill-opacity:0.2;fill-rule:nonzero;stroke:none">
+          <path d="M 0,0 H 22110.2 V 2551.18 H 0 Z M 200,2351.18 H 21910.2 V 200 H 200 Z"/>
+        </g>
+        <g style="fill:none;stroke:pink;stroke-width:20;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1">
+          <path d="m 281.719,285.512 h 21543.3 v 1984.25 H 281.719 Z"/>
+        </g>
+      </g>
+    </g>
+    <g id="przód-guide">
+      <g transform="translate(-330.001349377, -50) scale(1, -1) scale(0.026458386) scale(1.3333333)">
+        <g style="fill:green;fill-opacity:0.2;fill-rule:nonzero;stroke:none">
+          <path d="M 0,0 H 18708.7 V 7086.62 H 0 Z M 200,6886.61 H 18508.7 V 200 H 200 Z"/>
+        </g>
+        <g style="fill:none;stroke:pink;stroke-width:20;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1">
+          <path d="m 9279.33,6852.62 c 0,0 -2863.93,-239.47 -5308.81,-1964.39 C 1818.86,3370.19 865.68,283.461 865.68,283.461 l 1738.89,15.379 c 0,0 669.2,2175.64 2820.88,3524.45 2009.9,1259.93 3852.73,1180.92 3852.73,1180.92"/>
+          <path d="m 9280.48,5004.18 c 0,0 2146.32,113.58 3974.32,-1105.86 2114.9,-1410.9 2880.1,-3614.859 2880.1,-3614.859 h 1764.4 c 0,0 -694.1,2773.149 -2814.3,4334.779 -2788.5,2053.78 -5805.68,2234.35 -5805.68,2234.35"/>
+          <path d="M 4945.72,2407.68 6690.75,1099.3 4946.04,226.629 4945.72,2407.68"/>
+          <path d="M 12936.9,2381.05 14682,1072.67 12937.3,199.996 l -0.4,2181.054"/>
+          <path d="m 7286.21,249.664 1785.06,1.449 c 0,0 179.08,715.039 196.19,1490.957 l -1713.49,85 c 0,0 30.78,-686.82 -267.76,-1577.406 z"/>
+          <path d="m 12076.8,249.664 -1785,1.449 c 0,0 -179.1,715.039 -196.2,1490.957 l 1713.5,85 c 0,0 -30.8,-686.82 267.7,-1577.406 z"/>
+        </g>
+      </g>
+      <circle cx="0" cy="0" r="20" fill="red" />
+      <use xlink:href="../_/logo.svg#logotyp" transform="scale(0.2)"/>
+    </g>
+    <g id="tył-guide">
+      <g transform="translate(-330.001349377, -50) scale(1, -1) scale(0.026458386) scale(1.3333333)">
+        <g style="fill:green;fill-opacity:0.2;fill-rule:nonzero;stroke:none">
+          <path d="M 0,0 H 18708.7 V 7086.62 H 0 Z M 200,6886.61 H 18508.7 V 200 H 200 Z"/>
+        </g>
+        <g style="fill:none;stroke:pink;stroke-width:20;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1">
+          <path d="m 9279.33,6852.62 c 0,0 -2863.93,-239.47 -5308.81,-1964.39 C 1818.86,3370.19 865.68,283.461 865.68,283.461 l 1738.89,15.379 c 0,0 669.2,2175.64 2820.88,3524.45 2009.9,1259.93 3852.73,1180.92 3852.73,1180.92"/>
+          <path d="m 9280.48,5004.18 c 0,0 2146.32,113.58 3974.32,-1105.86 2114.9,-1410.9 2880.1,-3614.859 2880.1,-3614.859 h 1764.4 c 0,0 -694.1,2773.149 -2814.3,4334.779 -2788.5,2053.78 -5805.68,2234.35 -5805.68,2234.35"/>
+          <path d="M 6855.94,239.641 8641,241.09 c 0,0 179.08,715.039 196.19,1490.96 l -1713.49,84.99 c 0,0 30.78,-686.82 -267.76,-1577.399 z"/>
+          <path d="m 11866.7,239.641 -1785,1.449 c 0,0 -179.11,715.039 -196.22,1490.96 l 1713.52,84.99 c 0,0 -30.8,-686.82 267.7,-1577.399 z"/>
+        </g>
+      </g>
+      <circle cx="0" cy="0" r="20" fill="red" />
+      <use xlink:href="../_/logo.svg#logotyp" transform="scale(0.2)"/>
+    </g>
+  </defs>
+</svg>
